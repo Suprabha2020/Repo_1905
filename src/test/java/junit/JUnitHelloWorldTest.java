@@ -17,19 +17,36 @@ public class JUnitHelloWorldTest {
 
 	@Before
 	public void before() {
-		System.out.println("Before Test Case");
+		System.out.println("Before Test Case ");
 	}
 
 	@Test
 	public void isGreaterTest() {
 		System.out.println("Test");
-		JUnitHelloWorld tester = new JUnitHelloWorld();
-		assertTrue("Num 1 is greater than Num 2", tester.isGreater(5, 3));
+		//JUnitHelloWorld tester = new JUnitHelloWorld();
+		assertTrue("Num 1 is greater than Num 2", JUnitHelloWorld.isGreater(6, 3));
+	}
+
+	
+
+	@Test
+	public void isLesserTest() {
+		System.out.println("Test");
+		//JUnitHelloWorld tester = new JUnitHelloWorld();
+		assertTrue("Num 1 is lesser than Num 2", JUnitHelloWorld.isLesser(2, 3));
+	}
+
+	
+	@Test
+	public void isEqualTest() {
+		System.out.println("Test");
+		//JUnitHelloWorld tester = new JUnitHelloWorld();
+		assertTrue("Num 1 is equal to Num 2", JUnitHelloWorld.isEqual(6, 6));
 	}
 
 	@After
 	public void after() {
-		System.out.println("After Test Case");
+		System.out.println("After Test Case ");
 	}
 
 	@AfterClass
