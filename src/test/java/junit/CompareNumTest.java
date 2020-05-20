@@ -8,7 +8,7 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class JUnitHelloWorldTest {
+public class CompareNumTest {
 
 	@BeforeClass
 	public static void beforeClass() {
@@ -23,8 +23,7 @@ public class JUnitHelloWorldTest {
 	@Test
 	public void isGreaterTest() {
 		System.out.println("Test");
-		//JUnitHelloWorld tester = new JUnitHelloWorld();
-		assertTrue("Num 1 is greater than Num 2", JUnitHelloWorld.isGreater(6, 3));
+		assertTrue("Num 1 is greater than Num 2", CompareNum.isGreater(6, 3));
 	}
 
 	
@@ -32,16 +31,14 @@ public class JUnitHelloWorldTest {
 	@Test
 	public void isLesserTest() {
 		System.out.println("Test");
-		//JUnitHelloWorld tester = new JUnitHelloWorld();
-		assertTrue("Num 1 is lesser than Num 2", JUnitHelloWorld.isLesser(2, 3));
+		assertTrue("Num 1 is lesser than Num 2", CompareNum.isLesser(2, 3));
 	}
 
 	
 	@Test
 	public void isEqualTest() {
 		System.out.println("Test");
-		//JUnitHelloWorld tester = new JUnitHelloWorld();
-		assertTrue("Num 1 is equal to Num 2", JUnitHelloWorld.isEqual(6, 6));
+		assertTrue("Num 1 is equal to Num 2", CompareNum.isEqual(6, 6));
 	}
 
 	@After
