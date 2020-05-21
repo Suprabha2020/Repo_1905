@@ -22,7 +22,7 @@ public class CompareNumTest {
 
 	@Test
 	public void isGreaterTest() {
-		System.out.println("Test");
+		System.out.println("Grater number is validated");
 		assertTrue("Num 1 is greater than Num 2", CompareNum.isGreater(6, 3));
 	}
 
@@ -30,14 +30,14 @@ public class CompareNumTest {
 
 	@Test
 	public void isLesserTest() {
-		System.out.println("Test");
+		System.out.println("Lesser number is validated");
 		assertTrue("Num 1 is lesser than Num 2", CompareNum.isLesser(2, 3));
 	}
 
 	
 	@Test
 	public void isEqualTest() {
-		System.out.println("Test");
+		System.out.println("Equal numbers are validated");
 		assertTrue("Num 1 is equal to Num 2", CompareNum.isEqual(6, 6));
 	}
 
