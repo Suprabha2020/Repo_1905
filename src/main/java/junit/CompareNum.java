@@ -18,7 +18,7 @@ public class CompareNum {
 		
 		System.out.println("Greater number between two give numbers "+isGreater(10,9));
 		
-		System.out.println("Lesser number between two give numbers "+isLesser(8,9));
+		System.out.println("Lesser number between two give numbers "+isLesser(6,9));
 		
 		System.out.println("Both the numbers are equal "+isEqual(9,9));
 	}
